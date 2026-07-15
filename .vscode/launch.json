@@ -1,0 +1,19 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"type": "nrf-connect",
+			"request": "launch",
+			"name": "Launch l1_e1/build",
+			"config": "${workspaceFolder}/l1_e1/build",
+			"runToEntryPoint": "main"
+		},
+		{
+			"type": "nrf-connect",
+			"request": "launch",
+			"name": "Launch l1_e1/build/l1_e1",
+			"config": "${workspaceFolder}/l1_e1/build/l1_e1",
+			"runToEntryPoint": "main"
+		}
+	]
+}

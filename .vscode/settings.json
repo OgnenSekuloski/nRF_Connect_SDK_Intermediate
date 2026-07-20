@@ -1,7 +1,10 @@
 {
     "nrf-connect.applications": [
         "${workspaceFolder}\\l1_e1",
-        "${workspaceFolder}\\l1_e2"
+        "${workspaceFolder}\\l1_e2",
+        "${workspaceFolder}\\l2_e1",
+        "${workspaceFolder}\\l2_e2",
+        "${workspaceFolder}\\l2_e3"
     ],
     "nrf-connect.debugging.bindings": {
         "${workspaceFolder}/l1_e1/build": "Launch l1_e1/build",
